@@ -1,6 +1,6 @@
 name: Build Manager
 
-on:
+on :
   # push:
   #   branches: [ "next" ]
   #   paths:
@@ -15,7 +15,7 @@ on:
   #   paths:
   #     - 'manager/**'
   workflow_call:
-  workflow_dispatch:
+
 
 jobs:
   build-lkm:
